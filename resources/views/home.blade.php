@@ -21,7 +21,7 @@
         <div>
             <a href="{{ route("contacts") }}"><button class="btn btn-primary">Contatti</button></a>
             <a href="{{ route("aboutus") }}"><button class="btn btn-primary mx-3">About Us</button></a>
-            <a href="{{ route("info") }}"><button class="btn btn-primary">About Us</button></a>
+            <a href="{{ route("info") }}"><button class="btn btn-primary">Info</button></a>
         </div>
     </div>
 </body>
