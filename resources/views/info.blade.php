@@ -14,14 +14,16 @@
         <div class="text-center pb-5">
             <h1 class="mb-5">{{ $hello }}</h1>
         </div>
-        <div class="p-2">
-            <h2 class="text-white mb-5">Home Page</h2>
-            <h5 class="text-info pb-2">Lista Pagine:</h5>
+        <div class="text-white p-2">
+            <h2>Info Page</h2>
         </div>
-        <div>
-            <a href="{{ route("contacts") }}"><button class="btn btn-primary">Contatti</button></a>
-            <a href="{{ route("aboutus") }}"><button class="btn btn-primary mx-3">About Us</button></a>
-            <a href="{{ route("info") }}"><button class="btn btn-primary">About Us</button></a>
+        <div class="text-info p-2">
+            <h3>{{ $name }}</h3>
+            <h4>{{ $surname }}</h4>
+            <h5>{{ $info }}</h5>
+        </div>
+        <div class="mt-5">
+            <a href="{{ route("home") }}"><button class="btn btn-danger">Back to Home</button></a>
         </div>
     </div>
 </body>
